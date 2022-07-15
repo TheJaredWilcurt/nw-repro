@@ -1,0 +1,23 @@
+{
+  "name": "nw-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nwbuild ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushmxn/nw-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushmxn/nw-repro/issues"
+  },
+  "homepage": "https://github.com/ayushmxn/nw-repro#readme",
+  "dependencies": {
+    "nw-builder": "^3.8.0"
+  }
+}

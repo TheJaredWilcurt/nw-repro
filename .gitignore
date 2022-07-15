@@ -1,0 +1,6 @@
+# Runtime
+node_modules
+
+# Application
+cache
+build
