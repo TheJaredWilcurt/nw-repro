@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>NW Repro</title>
-  </head>
 
-  <body>
-    Hello, World!
-  </body>
+<head>
+  <title>NW Repro</title>
+  <script>
+
+    window.onload = () => {
+      var win = nw.Window.get();
+      win.minimize();
+
+      win.showDevTools();
+    };
+
+  </script>
+</head>
+
+<body>
+  Hello, World!
+</body>
+
 </html>
