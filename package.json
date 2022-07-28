@@ -6,17 +6,6 @@
   "scripts": {
     "start": "nw ./app/**/*.*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayushmxn/nw-repro.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ayushmxn/nw-repro/issues"
-  },
-  "homepage": "https://github.com/ayushmxn/nw-repro#readme",
   "dependencies": {
     "nw": "^0.66.1-sdk"
   }
