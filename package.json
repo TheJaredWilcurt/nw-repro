@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/nw/nwjs/nw ./app/**/*.*"
+    "start": "./node_modules/.bin/nw ./app/**/*.*"
   },
   "repository": {
     "type": "git",
