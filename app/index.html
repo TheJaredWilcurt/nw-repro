@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>NW Repro</title>
-  </head>
 
-  <body>
-    Hello, World!
-  </body>
+<head>
+  <title>NW Repro</title>
+  <script>
+    const process = require("node:process");
+    document.body.append(process.env.COUNT)
+  </script>
+</head>
+
+<body>
+</body>
+
 </html>
