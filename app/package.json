@@ -1,6 +1,5 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "main": "./index.html",
-  "icon": ""
+  "main": "./index.js"
 }

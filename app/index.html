@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>NW Repro</title>
-    <script>
-      window.onload = () => {
-        let webview = document.getElementById("foo");
-        if (!!webview) {
-          webview.remove();
-        }
-      };
-    </script>
-  </head>
 
-  <body>
-    <webview id="foo" src="http://www.google.com/" style="width:640px; height:480px"></webview>
-    Hello, World!
-  </body>
+<head>
+  <title>NW Repro</title>
+  <script>
+    window.onload = () => {
+      let webview = document.getElementById("foo");
+      if (!!webview) {
+        webview.remove();
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <webview id="foo" src="http://www.google.com/" style="width:640px; height:480px"></webview>
+  Hello, World!
+</body>
+
 </html>
