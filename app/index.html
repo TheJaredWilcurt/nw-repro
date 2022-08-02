@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>NW Repro</title>
-  </head>
 
-  <body>
-    Hello, World!
-  </body>
+<head>
+  <title>NW Repro</title>
+  <script>
+    setTimeout(() => {
+      const win = nw.Window.get();
+      win.showDevTools();
+    }, 10000);
+  </script>
+</head>
+
+<body>
+  Hello, World!
+</body>
+
 </html>
