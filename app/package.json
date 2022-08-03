@@ -1,5 +1,17 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "main": "./index.html"
+  "name": "mn",
+  "main": "index.html",
+  "nodejs": true,
+  "window": {
+    "frame": true,
+    "toolbar": false,
+    "width": 800,
+    "height": 580,
+    "show": false,
+    "position": "center",
+    "transparent": true
+  },
+  "webkit": {
+    "plugin": true
+  }
 }
