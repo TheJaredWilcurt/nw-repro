@@ -4,9 +4,12 @@
   "description": "",
   "main": "./app/index.html",
   "scripts": {
-    "start": "nw ./app/**/*.*"
+    "start": "gulp build-dev"
   },
   "dependencies": {
-    "nw": "^0.66.1-sdk"
+    "nw-builder": "^3.8.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
