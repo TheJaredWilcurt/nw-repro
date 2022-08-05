@@ -7,6 +7,6 @@
     "start": "nw ./app/**/*.*"
   },
   "dependencies": {
-    "nw": "^0.66.1-sdk"
+    "nw": "^0.67.0-sdk"
   }
 }

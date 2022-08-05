@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>NW Repro</title>
-  </head>
 
-  <body>
-    Hello, World!
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>worker-sharedworker</title>
+</head>
+
+<body>
+  <button id="start" onclick="startWorker()">Start workers</button>
+  <script>
+
+    function startWorker() {
+      var worker1 = new SharedWorker('./sharedWorker1.js');
+      var worker2 = new SharedWorker('./sharedWorker2.js');
+
+      window.open('chrome://inspect#workers');
+
+      const bc = new BroadcastChannel('bus');
+      bc.onmessage = (m) => { console.log(m.data); };
+      let i = 0;
+      setInterval(function () { bc.postMessage('ping from window ' + i); i += 1; }, 2000);
+    }
+  </script>
+</body>
+
 </html>
