@@ -37,9 +37,18 @@ More information can be found in the API section.
 ## Run your first NW.js application
 
 ```shell
+/path/to/nw /path/to/app
+
+# On Linux this can look like
 ./node_modules/nw/bin/nw .
+
+# On Mac this can look like
+./node_modules/nw/bin/nwjs.app/Contents/MacOS/nwjs .
+
+# On Windows this can look like
+./node_modules/nw/bin/nw.exe .
 ```
 
-The above command is true if your `package.json` is in the above mentioned file path with the `main` property pointing to the entry point of the NW application.
+The above command executes if your `package.json` is in the above mentioned file path and it has the `main` property pointing to the entry point of the NW application.
 
 ## Build your first NW.js application
