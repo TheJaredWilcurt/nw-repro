@@ -10,4 +10,4 @@ Write native desktop applications using web technologies.
 - Node and WebKit run in the same thread
 - Straightforward function calls since objects are in the same heap and can just reference each other
 
-Check out the getting started instructions to give NW.js a try.
+Check out the [getting started](getting-started.md) instructions to give NW.js a try.
