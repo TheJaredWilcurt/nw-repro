@@ -52,3 +52,5 @@ More information can be found in the API section.
 The above command executes if your `package.json` is in the above mentioned file path and it has the `main` property pointing to the entry point of the NW application.
 
 ## Build your first NW.js application
+
+Coming soon! For now refer to the [original documentation](http://docs.nwjs.io/en/latest/).
