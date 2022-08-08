@@ -32,7 +32,7 @@ Here's an exmaple on how to use a JavaScript file as the entry point:
 nw.Window.open("./index.html", {}, () => {});
 ```
 
-More information can be found in the API section.
+More information can be found in the [API section](./api).
 
 ## Run your first NW.js application
 
